@@ -27,7 +27,7 @@
 
     uvicorn main:app --reload
 
-6. To access the APIs visit this URL `http://127.0.0.1:8000/docs`
+6. To access the APIs visit this URL http://127.0.0.1:8000/docs
 
 ---
 
