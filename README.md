@@ -1,4 +1,3 @@
-
 ---
 ## Installation
 
@@ -28,6 +27,7 @@
 
     uvicorn main:app --reload
 
+6. To access the APIs visit this URL `http://127.0.0.1:8000/docs`
 
 ---
 
@@ -58,5 +58,11 @@
 + POST /api/articles/{article_id}/comments
 
     Add a comment to an article.
+
+---
+
+### Unit Tests
+
+for the unit test, you run this command `pytest test_main.py`:
 
 ---
