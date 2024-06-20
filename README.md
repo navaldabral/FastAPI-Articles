@@ -3,9 +3,9 @@
 
 ### Prerequisites
 
-+ Python 3.7+
++ Python 3.11.1
 
-+ MySQL database
++ MySQL database ver 8.0.32
 
 ### Setup
 1. Clone the repository
@@ -31,7 +31,9 @@
 
     or
 
-    Models Create automaticaly when FastAPI run
+    Models are created automatically when FastAPI run
+
+        "Upload blog.sql if dummy data is needed."
 
 <img width="1469" alt="Screenshot 2024-06-20 at 10 03 59 AM" src="https://github.com/navaldabral/articles/assets/29625991/cff60130-1355-43c5-b662-c3c69307a05a">
 
