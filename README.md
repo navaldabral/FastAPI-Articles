@@ -78,6 +78,32 @@
 
 ---
 
+### Models
+
+#### Article
+
+id: Integer, Primary Key
+
+title: String
+
+content: Text
+
+author: String
+
+created_at: Date
+
+#### Comment
+
+id: Integer, Primary Key
+
+comment: String
+
+author: String
+
+article_id: Integer, Foreign Key
+
+---
+
 ### Unit Tests
 
 for the unit test, you run this command `pytest test_main.py`:
