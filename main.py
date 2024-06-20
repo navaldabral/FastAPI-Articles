@@ -5,10 +5,24 @@ from database import engine, get_db, SessionLocal
 from sqlalchemy.orm import Session, joinedload
 from sqlalchemy import asc, desc
 from typing import List, Optional
+from fastapi.responses import HTMLResponse
 
 app = FastAPI()
 
 Base.metadata.create_all(engine)
+
+@app.get("/", response_class=HTMLResponse)
+def read_root():
+    return """
+    <html>
+        <head>
+            <title>Home</title>
+        </head>
+        <body>
+            <p>Visit this URL to access the API documentation: <a href="http://127.0.0.1:8000/docs">http://127.0.0.1:8000/docs</a></p>
+        </body>
+    </html>
+    """
 
 @app.get("/api/articles/")
 def read_articles(
