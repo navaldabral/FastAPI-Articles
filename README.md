@@ -23,6 +23,10 @@
 
     upload the given `blog.sql` in `blog` database
 
+    or
+
+    Models Create automaticaly when FastAPI run 
+
 5. Run the application
 
     uvicorn main:app --reload
@@ -34,6 +38,9 @@
 ### Endpoints
 
 #### Articles
+
+![Uploading Screenshot 2024-06-20 at 10.01.32 AM.png…]()
+
 
 + GET /api/articles/
 
