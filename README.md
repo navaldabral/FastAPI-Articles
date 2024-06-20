@@ -25,13 +25,16 @@
 
     or
 
-    Models Create automaticaly when FastAPI run 
+    Models Create automaticaly when FastAPI run
 
-5. Run the application
+<img width="1469" alt="Screenshot 2024-06-20 at 10 03 59 AM" src="https://github.com/navaldabral/articles/assets/29625991/cff60130-1355-43c5-b662-c3c69307a05a">
+
+
+6. Run the application
 
     uvicorn main:app --reload
 
-6. To access the APIs visit this URL http://127.0.0.1:8000/docs
+7. To access the APIs visit this URL http://127.0.0.1:8000/docs
 
 ---
 
