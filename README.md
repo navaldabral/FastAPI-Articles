@@ -3,8 +3,9 @@
 
 ### Prerequisites
 
-Python 3.7+
-MySQL database
++ Python 3.7+
+
++ MySQL database
 
 ### Setup
 1. Clone the repository
