@@ -75,4 +75,6 @@
 
 for the unit test, you run this command `pytest test_main.py`:
 
+<img width="1470" alt="Screenshot 2024-06-20 at 10 06 17 AM" src="https://github.com/navaldabral/articles/assets/29625991/4b0a0d7d-999d-4100-a350-06bdb3ae6003">
+
 ---
