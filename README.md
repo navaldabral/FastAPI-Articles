@@ -39,7 +39,7 @@
 
 #### Articles
 
-![Uploading Screenshot 2024-06-20 at 10.01.32 AM.png…]()
+<img width="1470" alt="Screenshot 2024-06-20 at 10 01 32 AM" src="https://github.com/navaldabral/articles/assets/29625991/04952e4e-b443-403a-9786-a82b3b3b10a0">
 
 
 + GET /api/articles/
